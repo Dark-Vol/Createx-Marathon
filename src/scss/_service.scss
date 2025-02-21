@@ -1,0 +1,205 @@
+.section {
+
+    // .section__service
+
+    &__service {
+        background: url(../img/service.jpg);
+        padding-top: 212px;
+        padding-bottom: 85px;
+
+    }
+}
+
+.container {}
+
+.title {}
+
+.text {}
+
+.src {
+    fill: #FF5A30;
+}
+
+
+.icon {}
+
+.service {
+    &__item-content {
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .service__list
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding-top: 60px;
+
+        @media(max-width: $breakpoint992) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    // .service__item
+
+    &__item {
+
+        background: #FFFFFF;
+        /* gray/300 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid #E5E8ED;
+        box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+        border-radius: 4px;
+        width: 285px;
+        height: 285px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-image: url(../img/service1.jpg);
+            opacity: 0;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: opacity 0.3s ease-in-out;
+            z-index: 10;
+
+
+        }
+
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: rgba($color: #1E212C, $alpha: 0.6);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            z-index: 11;
+
+        }
+
+        &:hover {
+            &::before {
+                opacity: 1;
+            }
+
+            &::after {
+                opacity: 1;
+            }
+
+            .src {
+                fill: #fff;
+            }
+
+            .service__subtitle {
+                color: #fff;
+            }
+        }
+
+    }
+
+
+    // .service__icon
+
+
+    // .service__subtitle
+
+    &__subtitle {
+        padding-top: 24px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+        text-align: center;
+        /* gray/900 */
+
+        color: #1E212C;
+    }
+
+    // .service__learn
+
+    &__learn {
+        display: flex;
+        padding-top: 80px;
+        gap: 40px;
+        justify-content: center;
+
+        @media(max-width: $breakpoint768) {
+            flex-wrap: wrap;
+            padding-top: 40px;
+            gap: 20px;
+        }
+    }
+
+    // .service__ser
+
+    &__ser {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 150%;
+        /* identical to box height, or 42px */
+        display: flex;
+        align-items: center;
+
+        /* gray/900 */
+
+        color: #1E212C;
+    }
+}
+
+.btn {
+
+    // .btn__primary
+
+    &__primary {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 52px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+.service-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    /* identical to box height, or 325% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0 40px;
+    background: #FF5A30;
+    border-radius: 4px;
+    color: #FFFFFF;
+
+    @media(max-width: $breakpoint480) {
+        font-size: 14px;
+        line-height: 52px;
+    }
+}

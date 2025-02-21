@@ -1,0 +1,37 @@
+// Global SCSS-files imports
+@import './vars';
+@import './reset';
+@import './global';
+
+// Sections or Pages SCSS-files imports
+@import './header';
+@import './hero';
+@import './about';
+@import './service';
+@import './our';
+@import './project';
+@import './clients';
+@import './stats';
+@import './news';
+@import './form';
+@import './footer';
+@import './main-hero';
+@import './main-about';
+@import './process';
+@import './pricing';
+@import './project-3';
+@import './hero-work';
+@import './goal';
+@import './info';
+@import './quos';
+@import './team';
+@import './map';
+@import './jobs';
+@import './categories';
+@import './singlepost';
+@import './contactsus';
+@import './offer';
+@import './history';
+
+// Libs
+@import './libs/swiper';
