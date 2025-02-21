@@ -9,22 +9,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="icon" type="image/x-icon"
+        href="https://cdn.dribbble.com/users/2512810/screenshots/13260708/media/1d9ef5d0c6a1c5dae7c6610bca931729.jpg?compress=1&resize=400x300" />
 
 </head>
 
 <body class="main__body">
+                <div id="preloader">
+                    <div id="container" class="container-preloader">
+                        <div class="animation-preloader">
+                            <div class="spinner"></div>
+                            <div class="txt-loading">
+                                <span preloader-text="C" class="characters">C</span>
+                
+                                <span preloader-text="R" class="characters">R</span>
+                
+                                <span preloader-text="E" class="characters">E</span>
+                
+                                <span preloader-text="A" class="characters">A</span>
+                
+                                <span preloader-text="T" class="characters">T</span>
+                
+                                <span preloader-text="E" class="characters">E</span>
+                
+                                <span preloader-text="X " class="characters">X</span>
+                            </div>
+                        </div>
+                        <div class="loader-section section-left"></div>
+                        <div class="loader-section section-right"></div>
+                    </div>
+                </div>
     <!-- Header -->
-    <header class="main-color ">
+    <div>
+        <img src="./img/service-hero2.png" class="bg-hero" alt="">
+        <header class="main-color ">
     <!-- Navbar -->
     <nav>
         <div class="container">
             <div class="navbar">
-                <div class="logo"> <a href="index.html"> <img src="../img/logo.svg" alt=""> </a> </div>
+                <div class="logo"> <a href="index.html"> <img src="./img/logo.svg" alt=""> </a> </div>
                 <ul class="menu">
                     <li class="menu__item"><a href="about.html" class="menu__item-link" data-scroll>About Us</a></li>
                     <div class="dropdown">
@@ -43,20 +72,20 @@
                     </li>
                     <li class="menu__item"><a href="portfolio.html" class="menu__item-link" data-scroll>Work</a></li>
                     <li class="menu__item"><a href="news.html" class="menu__item-link" data-scroll>News</a></li>
-                    <li class="menu__item"><a href="contack.html" class="menu__item-link" data-scroll>Contacts</a></li>
+                    <li class="menu__item"><a href="contacts.html" class="menu__item-link" data-scroll>Contacts</a></li>
                 </ul>
                 <!-- Slider main container -->
 
                 <div class="info">
                     <div class="tell">
-                        <img src="../img/tell.svg" alt="" class="tell__img">
+                        <img src="./img/tell.svg" alt="" class="tell__img">
                         <div class="tell__info">
                             <p class="tell__call">Call us</p>
                             <a href="telto:(405) 555-0128" class="tell__num">(405) 555-0128</a>
                         </div>
                     </div>
                     <div class="chat">
-                        <img src="../img/chat.svg" alt="" class="chat__img">
+                        <img src="./img/chat.svg" alt="" class="chat__img">
                         <div class="chat__info">
                             <p class="chat__call">Talk to us</p>
                             <a href="mail:hello@createx.com" class="chat__num">hello@createx.com</a>
@@ -70,242 +99,144 @@
         </div>
     </nav>
 </header>
+        <section class="section__main-hero">
+    <div class="container">
+        <div class="main-hero__item">
+            <div class="main-hero__navigate">
+                <a href="index.html" class="main-hero__Homepage">Homepage</a> <span class="icon-around">/</span>
+                <a href="services.html" class="main-hero__Services main-hero__Services--2">Services</a><span class="icon-around">/</span>
+                <a href="services-2.html" class="main-hero__İnterior">Interior Design</a>
+            </div>
+            <h1 class="main-hero__title">INTERIOR <br> DESIGN</h1>
+            <p class="main-hero__text">Dui augue nec mi mi. Ut ac lectus donec fames pellentesque. Laoreet aenean
+                vulputate elementum blandit amet.</p>
+        </div>
+        <div class="main-hero__item main-hero__item-right"></div>
+    </div>
+</section>
+    </div>
     <!-- Main Page -->
     <main>
-        <section class="section__hero-work">
+        <section class="section__main-about">
     <div class="container">
-        <div class="main-hero__navigate">
-            <a href="index.html" class="main-hero__Homepage">Homepage</a> <span class="icon-around">/</span>
-            <a href="portfolio.html" class="main-hero__Services main-hero__Services--2">Work</a><span
-                class="icon-around">/</span>
-            <a href="project.html" class="main-hero__İnterior">Modern Cottage</a>
-        </div>
-        <h1 class="hero-work__title">Modern Cottage</h1>
-        <div class="hero-work__item">
-            <div class="slider-for">
-                <div class="slider-for__item">
-                    <img src="../img/work-5.jpg" width="1230" height="700" alt="">
-                </div>
-                <div class="slider-for__item">
-                    <img src="../img/work-4.jpg" alt="" width="1230" height="700">
-                </div>
-                <div class="slider-for__item">
-                    <img src="../img/work-6.jpg" alt="" width="1230" height="700">
-                </div>
-                <div class="slider-for__item">
-                    <img src="../img/work-2.jpg" alt="" width="1230" height="700">
-                </div>
-                <div class="slider-for__item">
-                    <img src="../img/work-1.jpg" alt="" width="1230" height="700">
-                </div>
-                <div class="slider-for__item">
-                    <img src="../img/work-3.jpg" alt="" width="1230" height="700">
-                </div>
-            </div>
-            <div class="slider-nav">
-                <div class="slider-nav__item">
-                    <img class="image-opacity" src="../img/work-5.jpg" width="100" height="100" alt="">
-                </div>
-                <div class="slider-for__item">
-                    <img class="image-opacity" src="../img/work-4.jpg" alt="" width="100" height="100">
-                </div>
-                <div class="slider-for__item">
-                    <img class="image-opacity" src="../img/work-6.jpg" alt="" width="100" height="100">
-                </div>
-                <div class="slider-for__item">
-                    <img class="image-opacity" src="../img/work-2.jpg" alt="" width="100" height="100">
-                </div>
-                <div class="slider-for__item">
-                    <img class="image-opacity" src="../img/work-1.jpg" alt="" width="100" height="100">
-                </div>
-                <div class="slider-for__item">
-                    <img class="image-opacity" src="../img/work-3.jpg" alt="" width="100" height="100">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-        <section class="section__goal">
-    <div class="container">
-        <div class="goal">
-            <div class="goal__item ">
-                <h1 class="goal__title">
-                    Project goal
-                </h1>
-                <p class="goal__text">Build a private house 840 sq. feet with a large living room, three bedrooms,
-                    two bathrooms, a terrace, a pool and
-                    a garage for two cars.
-                </p>
-                <p class="goal__text">Modern design and care for each family member to feel as comfortable
-                    as possible in the new home.</p>
-            </div>
-            <div class="goal__item goal__item--right">
-                <div class="goal__list">
-                    <div class="goal__items">
-                        <div class="goal__subtitle">LOCATION</div>
-                        <div class="goal__content">2464 Royal Ln. Mesa, New Jersey</div>
-                    </div>
-                    <div class="goal__items">
-                        <div class="goal__subtitle">CLIENT</div>
-                        <div class="goal__content">Darlene Robertson</div>
-                    </div>
-                    <div class="goal__items">
-                        <div class="goal__subtitle">ARCHITECT</div>
-                        <div class="goal__content">HIK Architecture</div>
-                    </div>
-                    <div class="goal__items">
-                        <div class="goal__subtitle">SIZE</div>
-                        <div class="goal__content">2840 sq. feet</div>
-                    </div>
-                    <div class="goal__items">
-                        <div class="goal__subtitle">VALUE</div>
-                        <div class="goal__content">$2 million</div>
-                    </div>
-                    <div class="goal__items">
-                        <div class="goal__subtitle">COMPLETED</div>
-                        <div class="goal__content">May 2020</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-        <section class="section__clients">
-    <div class="container">
-        <div class="clients">
+        <div class="main-about__list">
+            <div class="main-about__item">
+                <img src="./img/SecondMain.jpg" alt="" class="main-about__img">
+                <div class="about-items">
+                    <h3 class="about-item__title ">We offer</h3>
+                    <!-- Accordion -->
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <div class="accordion__item-trigger">
+                                <div class="trigger__img">
+                                    <span class="line1"></span>
+                                    <span class="line2"></span>
+                                </div>
+                                <div class="trigger__text">Interior design of apartments</div>
 
-            <div class="clients__item">
-                <div class="clients__list clients__list--const">
-                    <div class="clients__swip">
-                        <h1 class="clients__subtitle">Constructive decisions</h1>
-                        <div class="clients__vit">
-                            <div class="clients__fer">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1442_218)">
-                                        <path
-                                            d="M10.0007 19.1673C15.0549 19.1673 19.1673 15.0553 19.1673 10.0007C19.1673 9.12822 19.0455 8.26847 18.8044 7.44509C18.6856 7.04021 18.2628 6.80765 17.8568 6.92645C17.4516 7.04487 17.2197 7.46915 17.3382 7.87403C17.5379 8.5581 17.6395 9.27387 17.6395 10.0007C17.6395 14.2127 14.2127 17.6395 10.0007 17.6395C5.78863 17.6395 2.36176 14.2127 2.36176 10.0007C2.36176 5.78863 5.78863 2.36176 10.0007 2.36176C11.5314 2.36176 13.0042 2.80935 14.2597 3.65586C14.6092 3.89178 15.0844 3.79909 15.3199 3.44959C15.5556 3.09973 15.4637 2.62491 15.1138 2.38918C13.6051 1.37184 11.8371 0.833984 10.0007 0.833984C4.94641 0.833984 0.833984 4.94604 0.833984 10.0007C0.833984 15.0553 4.94641 19.1673 10.0007 19.1673Z"
-                                            fill="#FF5A30" />
-                                        <path
-                                            d="M18.578 1.91131L10.0005 10.4884L7.25636 7.74464C6.93084 7.41932 6.40349 7.41932 6.07797 7.74464C5.75266 8.07016 5.75266 8.5975 6.07797 8.92302L9.41131 12.2564C9.57427 12.4193 9.78708 12.5005 10.0005 12.5005C10.2139 12.5005 10.4267 12.4193 10.5897 12.2564L19.7564 3.08969C20.0817 2.76417 20.0817 2.23683 19.7564 1.91131C19.4308 1.58599 18.9035 1.58599 18.578 1.91131Z"
-                                            fill="#FF5A30" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1442_218">
-                                            <rect width="20" height="20" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <div class="clients__subtext">Vitae ultrices ornare eu sed in est quisque duis id.</div>
                             </div>
-                            <div class="clients__fer">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1442_218)">
-                                        <path
-                                            d="M10.0007 19.1673C15.0549 19.1673 19.1673 15.0553 19.1673 10.0007C19.1673 9.12822 19.0455 8.26847 18.8044 7.44509C18.6856 7.04021 18.2628 6.80765 17.8568 6.92645C17.4516 7.04487 17.2197 7.46915 17.3382 7.87403C17.5379 8.5581 17.6395 9.27387 17.6395 10.0007C17.6395 14.2127 14.2127 17.6395 10.0007 17.6395C5.78863 17.6395 2.36176 14.2127 2.36176 10.0007C2.36176 5.78863 5.78863 2.36176 10.0007 2.36176C11.5314 2.36176 13.0042 2.80935 14.2597 3.65586C14.6092 3.89178 15.0844 3.79909 15.3199 3.44959C15.5556 3.09973 15.4637 2.62491 15.1138 2.38918C13.6051 1.37184 11.8371 0.833984 10.0007 0.833984C4.94641 0.833984 0.833984 4.94604 0.833984 10.0007C0.833984 15.0553 4.94641 19.1673 10.0007 19.1673Z"
-                                            fill="#FF5A30" />
-                                        <path
-                                            d="M18.578 1.91131L10.0005 10.4884L7.25636 7.74464C6.93084 7.41932 6.40349 7.41932 6.07797 7.74464C5.75266 8.07016 5.75266 8.5975 6.07797 8.92302L9.41131 12.2564C9.57427 12.4193 9.78708 12.5005 10.0005 12.5005C10.2139 12.5005 10.4267 12.4193 10.5897 12.2564L19.7564 3.08969C20.0817 2.76417 20.0817 2.23683 19.7564 1.91131C19.4308 1.58599 18.9035 1.58599 18.578 1.91131Z"
-                                            fill="#FF5A30" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1442_218">
-                                            <rect width="20" height="20" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <div class="clients__subtext">A fermentum in morbi pretium aliquam adipiscing donec tempus.</div>
-                            </div>
-                            <div class="clients__fer">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1442_218)">
-                                        <path
-                                            d="M10.0007 19.1673C15.0549 19.1673 19.1673 15.0553 19.1673 10.0007C19.1673 9.12822 19.0455 8.26847 18.8044 7.44509C18.6856 7.04021 18.2628 6.80765 17.8568 6.92645C17.4516 7.04487 17.2197 7.46915 17.3382 7.87403C17.5379 8.5581 17.6395 9.27387 17.6395 10.0007C17.6395 14.2127 14.2127 17.6395 10.0007 17.6395C5.78863 17.6395 2.36176 14.2127 2.36176 10.0007C2.36176 5.78863 5.78863 2.36176 10.0007 2.36176C11.5314 2.36176 13.0042 2.80935 14.2597 3.65586C14.6092 3.89178 15.0844 3.79909 15.3199 3.44959C15.5556 3.09973 15.4637 2.62491 15.1138 2.38918C13.6051 1.37184 11.8371 0.833984 10.0007 0.833984C4.94641 0.833984 0.833984 4.94604 0.833984 10.0007C0.833984 15.0553 4.94641 19.1673 10.0007 19.1673Z"
-                                            fill="#FF5A30" />
-                                        <path
-                                            d="M18.578 1.91131L10.0005 10.4884L7.25636 7.74464C6.93084 7.41932 6.40349 7.41932 6.07797 7.74464C5.75266 8.07016 5.75266 8.5975 6.07797 8.92302L9.41131 12.2564C9.57427 12.4193 9.78708 12.5005 10.0005 12.5005C10.2139 12.5005 10.4267 12.4193 10.5897 12.2564L19.7564 3.08969C20.0817 2.76417 20.0817 2.23683 19.7564 1.91131C19.4308 1.58599 18.9035 1.58599 18.578 1.91131Z"
-                                            fill="#FF5A30" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1442_218">
-                                            <rect width="20" height="20" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <div class="clients__subtext">Mauris odio pellentesque commodo, diam.</div>
-                            </div>
-                            <div class="clients__fer">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1442_218)">
-                                        <path
-                                            d="M10.0007 19.1673C15.0549 19.1673 19.1673 15.0553 19.1673 10.0007C19.1673 9.12822 19.0455 8.26847 18.8044 7.44509C18.6856 7.04021 18.2628 6.80765 17.8568 6.92645C17.4516 7.04487 17.2197 7.46915 17.3382 7.87403C17.5379 8.5581 17.6395 9.27387 17.6395 10.0007C17.6395 14.2127 14.2127 17.6395 10.0007 17.6395C5.78863 17.6395 2.36176 14.2127 2.36176 10.0007C2.36176 5.78863 5.78863 2.36176 10.0007 2.36176C11.5314 2.36176 13.0042 2.80935 14.2597 3.65586C14.6092 3.89178 15.0844 3.79909 15.3199 3.44959C15.5556 3.09973 15.4637 2.62491 15.1138 2.38918C13.6051 1.37184 11.8371 0.833984 10.0007 0.833984C4.94641 0.833984 0.833984 4.94604 0.833984 10.0007C0.833984 15.0553 4.94641 19.1673 10.0007 19.1673Z"
-                                            fill="#FF5A30" />
-                                        <path
-                                            d="M18.578 1.91131L10.0005 10.4884L7.25636 7.74464C6.93084 7.41932 6.40349 7.41932 6.07797 7.74464C5.75266 8.07016 5.75266 8.5975 6.07797 8.92302L9.41131 12.2564C9.57427 12.4193 9.78708 12.5005 10.0005 12.5005C10.2139 12.5005 10.4267 12.4193 10.5897 12.2564L19.7564 3.08969C20.0817 2.76417 20.0817 2.23683 19.7564 1.91131C19.4308 1.58599 18.9035 1.58599 18.578 1.91131Z"
-                                            fill="#FF5A30" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1442_218">
-                                            <rect width="20" height="20" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <div class="clients__subtext">Fermentum vestibulum est fermentum, egestas gravida scelerisque quis.</div>
-                            </div>
-                            <div class="clients__fer">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1442_218)">
-                                        <path
-                                            d="M10.0007 19.1673C15.0549 19.1673 19.1673 15.0553 19.1673 10.0007C19.1673 9.12822 19.0455 8.26847 18.8044 7.44509C18.6856 7.04021 18.2628 6.80765 17.8568 6.92645C17.4516 7.04487 17.2197 7.46915 17.3382 7.87403C17.5379 8.5581 17.6395 9.27387 17.6395 10.0007C17.6395 14.2127 14.2127 17.6395 10.0007 17.6395C5.78863 17.6395 2.36176 14.2127 2.36176 10.0007C2.36176 5.78863 5.78863 2.36176 10.0007 2.36176C11.5314 2.36176 13.0042 2.80935 14.2597 3.65586C14.6092 3.89178 15.0844 3.79909 15.3199 3.44959C15.5556 3.09973 15.4637 2.62491 15.1138 2.38918C13.6051 1.37184 11.8371 0.833984 10.0007 0.833984C4.94641 0.833984 0.833984 4.94604 0.833984 10.0007C0.833984 15.0553 4.94641 19.1673 10.0007 19.1673Z"
-                                            fill="#FF5A30" />
-                                        <path
-                                            d="M18.578 1.91131L10.0005 10.4884L7.25636 7.74464C6.93084 7.41932 6.40349 7.41932 6.07797 7.74464C5.75266 8.07016 5.75266 8.5975 6.07797 8.92302L9.41131 12.2564C9.57427 12.4193 9.78708 12.5005 10.0005 12.5005C10.2139 12.5005 10.4267 12.4193 10.5897 12.2564L19.7564 3.08969C20.0817 2.76417 20.0817 2.23683 19.7564 1.91131C19.4308 1.58599 18.9035 1.58599 18.578 1.91131Z"
-                                            fill="#FF5A30" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1442_218">
-                                            <rect width="20" height="20" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <div class="clients__subtext">At pharetra libero blandit risus, fringilla sed commodo diam.</div>
-                            </div>
-                            <div class="clients__fer">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1442_218)">
-                                        <path
-                                            d="M10.0007 19.1673C15.0549 19.1673 19.1673 15.0553 19.1673 10.0007C19.1673 9.12822 19.0455 8.26847 18.8044 7.44509C18.6856 7.04021 18.2628 6.80765 17.8568 6.92645C17.4516 7.04487 17.2197 7.46915 17.3382 7.87403C17.5379 8.5581 17.6395 9.27387 17.6395 10.0007C17.6395 14.2127 14.2127 17.6395 10.0007 17.6395C5.78863 17.6395 2.36176 14.2127 2.36176 10.0007C2.36176 5.78863 5.78863 2.36176 10.0007 2.36176C11.5314 2.36176 13.0042 2.80935 14.2597 3.65586C14.6092 3.89178 15.0844 3.79909 15.3199 3.44959C15.5556 3.09973 15.4637 2.62491 15.1138 2.38918C13.6051 1.37184 11.8371 0.833984 10.0007 0.833984C4.94641 0.833984 0.833984 4.94604 0.833984 10.0007C0.833984 15.0553 4.94641 19.1673 10.0007 19.1673Z"
-                                            fill="#FF5A30" />
-                                        <path
-                                            d="M18.578 1.91131L10.0005 10.4884L7.25636 7.74464C6.93084 7.41932 6.40349 7.41932 6.07797 7.74464C5.75266 8.07016 5.75266 8.5975 6.07797 8.92302L9.41131 12.2564C9.57427 12.4193 9.78708 12.5005 10.0005 12.5005C10.2139 12.5005 10.4267 12.4193 10.5897 12.2564L19.7564 3.08969C20.0817 2.76417 20.0817 2.23683 19.7564 1.91131C19.4308 1.58599 18.9035 1.58599 18.578 1.91131Z"
-                                            fill="#FF5A30" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1442_218">
-                                            <rect width="20" height="20" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                                <div class="clients__subtext">Integer ultricies viverra ut enim viverra ut.</div>
+                            <div class="accordion__item-content">
+                                <div class="content__text">Adipiscing nunc arcu enim elit mattis eu placerat proin.
+                                    Imperdiet elementum faucibus dignissim purus. Fusce parturient
+                                    diam magna ullamcorper morbi semper massa ac facilisis.</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="clients__main-img">
-                        <img src="../img/clients-2.jpg" alt="" class="clients__main-img">
+
+                        <div class="accordion__item">
+                            <div class="accordion__item-trigger ">
+                                <div class="trigger__img trigger__img--2">
+                                    <span class="line1"></span>
+                                    <span class="line2"></span>
+                                </div>
+                                <div class="trigger__text ">Interior design of private houses</div>
+
+                            </div>
+                            <div class="accordion__item-content">
+                                <div class="content__text">Adipiscing nunc arcu enim elit mattis eu placerat proin.
+                                    Imperdiet elementum faucibus dignissim purus. Fusce parturient
+                                    diam magna ullamcorper morbi semper massa ac facilisis.</div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
 
+
         </div>
     </div>
 </section>
+        <section class="section__process">
+    <div class="container">
+        <div class="process">
+            <h1 class="process__title">
+                That’s how we do it
+            </h1>
+            <div class="process__list">
+                <div class="process__item">
+                    <img src="./img/01.svg" alt="" class="process__img">
+                    <img src="./img/line.svg" class="line" alt="">
+                    <h1 class="process__subtitle">Work Estimate</h1>
+                    <p class="process__text">Culpa nostrud commodo ea consequat aliquip reprehenderit.</p>
+                </div>
+                <div class="process__item">
+                    <img src="./img/02.svg" alt="" class="process__img">
+                    <img src="./img/line.svg" class="line-2" alt="">
+                    <h1 class="process__subtitle">Contract</h1>
+                    <p class="process__text">Laoreet ultrices curabitur luctus quisque consequat. Leo lorem velit
+                        imperdiet auctor et tempor.</p>
+                </div>
+                <div class="process__item">
+                    <div class="process__gradient">
+                        <img src="./img/bg-circles.png" alt="" class="gradient__img">
+                        <img src="./img/line.svg" class="line-3" alt="">
+                        <div class="gradient__03">03</div>
+                    </div>
+                    <h1 class="process__subtitle process__subtitle--1 ">Mobilization</h1>
+                    <p class="process__text">COdio massa scelerisque purus arcu sed velit eleifend cursus leo.</p>
+                </div>
+                <div class="process__item">
+                    <img src="./img/04.svg" alt="" class="process__img">
 
-
+                    <h1 class="process__subtitle">Construction Work</h1>
+                    <p class="process__text">Adipisicing esse aliqua aliquip qui amet. Aute eiusmod dolore dolore et ad
+                        et veniam ad deserunt.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="section__our section__our-2">
+    <div class="container">
+        <h1 class="title our-2__title">Our core values</h1>
+        <p class="text our-2__text">Our mission is to set the highest standards for construction sphere.</p>
+        <div class="our">
+            <div class="our__list">
+                <img src="./img/our-1.svg" alt="" class="our__icon">
+                <h3 class="our__title our-2__title-2">Quality</h3>
+                <p class="our__text our-2__text">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit
+                    nostrud
+                    aliquip sunt.</p>
+            </div>
+            <div class="our__list">
+                <img src="./img/our-2.svg" alt="" class="our__icon">
+                <h3 class="our__title our-2__title-2">Safety</h3>
+                <p class="our__text our-2__text">Anim reprehenderit sint voluptate exercitation adipisicing laborum
+                    adipisicing.
+                    Minim empor est ea.</p>
+            </div>
+            <div class="our__list">
+                <img src="./img/our-3.svg" alt="" class="our__icon">
+                <h3 class="our__title our-2__title-2">Comfort</h3>
+                <p class="our__text our-2__text">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit
+                    voluptate ullamco
+                    proident ea ad.</p>
+            </div>
+        </div>
+        <button class="btn-primary our-2__btn">Discuss a project</button>
+    </div>
+</section>
         <section class="section__project">
     <div class="container">
         <div class="project">
@@ -313,7 +244,7 @@
             <div class="slider">
                 <div class="slider__item">
                     <div class="project__item">
-                        <img src="../img/project-1.jpg" alt="">
+                        <img src="./img/project-1.jpg" class="image-100" alt="">
                         <h3 class="project__subtitle">Kids Bedroom With Decorations</h3>
                         <p class="project__text">Apartments & flats</p>
                         <button class="project__button-outline">View Project</button>
@@ -321,7 +252,7 @@
                 </div>
                 <div class="slider__item">
                     <div class="project__item">
-                        <img src="../img/project-2.jpg" class="image-100" alt="">
+                        <img src="./img/project-2.jpg" class="image-100" class="image-100" alt="">
                         <h3 class="project__subtitle">Modern Double Bedroom</h3>
                         <p class="project__text">Apartments & flats</p>
                         <button class="project__button-outline">View Project</button>
@@ -330,7 +261,7 @@
                 <div class="slider__item">
                     <div class="project__item">
 
-                        <img src="../img/project-3.jpg" alt="">
+                        <img src="./img/project-3.jpg" class="image-100" alt="">
                         <h3 class="project__subtitle">Scandinavian Style Interior</h3>
                         <p class="project__text">Private houses</p>
                         <button class="project__button-outline">View Project</button>
@@ -339,7 +270,7 @@
                 <div class="slider__item">
                     <div class="project__item">
 
-                        <img src="../img/project-1.jpg" alt="">
+                        <img src="./img/project-1.jpg" class="image-100" alt="">
                         <h3 class="project__subtitle">Red Finger Building</h3>
                         <p class="project__text">Business Centers</p>
                         <button class="project__button-outline">View Project</button>
@@ -348,7 +279,7 @@
                 <div class="slider__item">
 
                     <div class="project__item">
-                        <img src="../img/project-2.jpg" class="image-100" alt="">
+                        <img src="./img/project-2.jpg" class="image-100" class="image-100" alt="">
                         <h3 class="project__subtitle">Red Finger Building</h3>
                         <p class="project__text">Business Centers</p>
                         <button class="project__button-outline">View Project</button>
@@ -357,7 +288,7 @@
                 <div class="slider__item">
 
                     <div class="project__item">
-                        <img src="../img/project-3.jpg" alt="">
+                        <img src="./img/project-3.jpg" class="image-100" alt="">
                         <h3 class="project__subtitle">Red Finger Building</h3>
                         <p class="project__text">Business Centers</p>
                         <button class="project__button-outline">View Project</button>
@@ -368,6 +299,190 @@
                 <h3 class="explore__title">Explore all our works</h3>
                 <button class="btn-primary explore__btn">View portfolio</button>
             </div>
+        </div>
+    </div>
+</section>
+        <section class="pricing">
+    <img src="img/services-pricing-decorate.png" alt="" aria-hidden="true" class="pricing__decorate">
+    <div class="container">
+        <h2 class="title title--center">Pricing</h2>
+        <p class="text descr--center pricing__descr">We&nbsp;offer you three categories of&nbsp;construction.</p>
+        <div class="table-wrapper">
+            <table class="pricing__table table">
+                <thead class="table__header">
+                    <tr class="table__row">
+                        <th class="table__th">Items</th>
+                        <th class="table__th">
+                            <div class="table__heading">Basic</div>
+                            <div class="table__per">$20 per m2</div>
+                        </th>
+                        <th class="table__th">
+                            <div class="table__heading">Standard</div>
+                            <div class="table__per">$30 per m2</div>
+                        </th>
+                        <th class="table__th">
+                            <div class="table__heading">Business</div>
+                            <div class="table__per">$40 per m2</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                    <tr class="table__row">
+                        <td class="table__col">Installation plan</td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">Planning solutions (2-3 options)</td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">Lighting plan</td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">Flooring plan</td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">Heating floor laying scheme</td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">Air conditioner zones layout</td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">3D visualization of all rooms</td>
+                        <td class="table__col">
+                            <span class="table__text">simplified</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">Visualization of each room (3-4 angles)</td>
+                        <td class="table__col">
+                        </td>
+                        <td class="table__col">
+                        </td>
+                        <td class="table__col">
+                            <span class="table__check">Available</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col">Terms</td>
+                        <td class="table__col">
+                            <span class="table__text">10 days</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__text">20 days</span>
+                        </td>
+                        <td class="table__col">
+                            <span class="table__text">30 days</span>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__col"></td>
+                        <td class="table__col">
+                            <button class="btn-outline btn-outline--price pricing__btn">Send request</button>
+                        </td>
+                        <td class="table__col">
+                            <button class="btn-outline btn-outline--price pricing__btn">Send request</button>
+                        </td>
+                        <td class="table__col">
+                            <button class="btn-outline btn-outline--price pricing__btn">Send request</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+        <section class="section__clients">
+    <div class="container">
+        <div class="clients">
+            <div class="clients__item">
+                <h1 class="clients__title">Supported by 12+ partners</h1>
+                <div class="clients__sup">
+                    <a href="#" class="clients__link">
+                        <img src="./img/clients-1.svg" alt="" class="sup-img">
+
+                    </a>
+                    <a href="#" class="clients__link">
+                        <img src="./img/clients-2.svg" alt="" class="sup-img">
+
+                    </a>
+                    <a href="#" class="clients__link">
+                        <img src="./img/clients-3.svg" alt="" class="sup-img">
+
+                    </a>
+                    <a href="#" class="clients__link">
+                        <img src="./img/clients-4.svg" alt="" class="sup-img">
+
+                    </a>
+                    <a href="#" class="clients__link">
+                        <img src="./img/clients-5.svg" alt="" class="sup-img">
+
+                    </a>
+                    <a href="#" class="clients__link">
+                        <img src="./img/clients-6.svg" alt="" class="sup-img">
+
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -410,7 +525,7 @@
 
                             <a href="">
 
-                                <img src="../img/logo-footer.svg" alt="">
+                                <img src="./img/logo-footer.svg" alt="">
                             </a>
                             <div class="footer__socials">
                                 <a href="">
@@ -474,7 +589,7 @@
                         <h3 class="footer__title">Let’s stay in touch</h3>
                         <form class="footer__form">
                             <input type="email" placeholder="Your email address " class="footer__input">
-                            <button class="btn-primary footer__btn">subscribe</button>
+                            <button class="footer__btn">subscribe</button>
                         </form>
                         <p class="footer__text-2">*Subscribe to our newsletter to receive communications and early
                             updates from Createx Construction Bureau.</p>
@@ -539,8 +654,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="../js/scripts.min.js"></script>
-    <script src="../js/slick.min.js"></script>
+    <script src="./js/scripts.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 </body>
 
 
